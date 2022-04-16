@@ -1,3 +1,9 @@
 import setuptools
-from Cython.Build import cythonize
-setuptools.setup(ext_modules=cythonize("graphicsmagick/image.pyx", include_path=['/usr/include/GraphicsMagick', '/usr/include/GraphicsMagick/Magick++']))
+from Cython.Build import cythonize 
+import os
+
+ext=setuptools.Extension(name="graphicsmagick", sources=["graphicsmagick/image.pyx"], include_dirs=['/usr/include/GraphicsMagick'], libraries=["GraphicsMagick++"])
+
+setuptools.setup(
+    ext_modules=cythonize([ext])
+)
