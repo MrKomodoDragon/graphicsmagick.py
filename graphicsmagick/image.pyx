@@ -1,5 +1,5 @@
-# disutils: language = c++
+# distutils: language = c++
 cimport Image
 import sys
 def main():
-	Image.InitializeMagick()
+	Image.InitializeMagick(sys.argv)
