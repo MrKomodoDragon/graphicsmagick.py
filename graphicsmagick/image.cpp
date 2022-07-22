@@ -1326,8 +1326,8 @@ static PyObject *__pyx_codeobj_;
  * cimport Image
  * import sys
  * def main():             # <<<<<<<<<<<<<<
- * 	Image.InitializeMagick((sys.argv[0]).encode("utf-8"))
- * 	print("Initialized Magick++ Successfully")
+ *     Image.InitializeMagick((sys.argv[0]).encode("utf-8"))
+ *     print("Initialized Magick++ Successfully")
  */
 
 /* Python wrapper */
@@ -1359,8 +1359,8 @@ static PyObject *__pyx_pf_14graphicsmagick_main(CYTHON_UNUSED PyObject *__pyx_se
   /* "graphicsmagick/image.pyx":5
  * import sys
  * def main():
- * 	Image.InitializeMagick((sys.argv[0]).encode("utf-8"))             # <<<<<<<<<<<<<<
- * 	print("Initialized Magick++ Successfully")
+ *     Image.InitializeMagick((sys.argv[0]).encode("utf-8"))             # <<<<<<<<<<<<<<
+ *     print("Initialized Magick++ Successfully")
  */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_sys); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 5, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -1399,8 +1399,8 @@ static PyObject *__pyx_pf_14graphicsmagick_main(CYTHON_UNUSED PyObject *__pyx_se
 
   /* "graphicsmagick/image.pyx":6
  * def main():
- * 	Image.InitializeMagick((sys.argv[0]).encode("utf-8"))
- * 	print("Initialized Magick++ Successfully")             # <<<<<<<<<<<<<<
+ *     Image.InitializeMagick((sys.argv[0]).encode("utf-8"))
+ *     print("Initialized Magick++ Successfully")             # <<<<<<<<<<<<<<
  */
   if (__Pyx_PrintOne(0, __pyx_kp_s_Initialized_Magick_Successfully) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
 
@@ -1408,8 +1408,8 @@ static PyObject *__pyx_pf_14graphicsmagick_main(CYTHON_UNUSED PyObject *__pyx_se
  * cimport Image
  * import sys
  * def main():             # <<<<<<<<<<<<<<
- * 	Image.InitializeMagick((sys.argv[0]).encode("utf-8"))
- * 	print("Initialized Magick++ Successfully")
+ *     Image.InitializeMagick((sys.argv[0]).encode("utf-8"))
+ *     print("Initialized Magick++ Successfully")
  */
 
   /* function exit code */
@@ -1503,8 +1503,8 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * cimport Image
  * import sys
  * def main():             # <<<<<<<<<<<<<<
- * 	Image.InitializeMagick((sys.argv[0]).encode("utf-8"))
- * 	print("Initialized Magick++ Successfully")
+ *     Image.InitializeMagick((sys.argv[0]).encode("utf-8"))
+ *     print("Initialized Magick++ Successfully")
  */
   __pyx_codeobj_ = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_graphicsmagick_image_pyx, __pyx_n_s_main_2, 4, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj_)) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
@@ -1790,7 +1790,7 @@ if (!__Pyx_RefNanny) {
  * cimport Image
  * import sys             # <<<<<<<<<<<<<<
  * def main():
- * 	Image.InitializeMagick((sys.argv[0]).encode("utf-8"))
+ *     Image.InitializeMagick((sys.argv[0]).encode("utf-8"))
  */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_sys, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 3, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -1801,8 +1801,8 @@ if (!__Pyx_RefNanny) {
  * cimport Image
  * import sys
  * def main():             # <<<<<<<<<<<<<<
- * 	Image.InitializeMagick((sys.argv[0]).encode("utf-8"))
- * 	print("Initialized Magick++ Successfully")
+ *     Image.InitializeMagick((sys.argv[0]).encode("utf-8"))
+ *     print("Initialized Magick++ Successfully")
  */
   __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_14graphicsmagick_1main, NULL, __pyx_n_s_graphicsmagick); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
